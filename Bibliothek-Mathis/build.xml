@@ -1,0 +1,15 @@
+<project name="Bibliothek-Mathis" default="jar">
+    <!--Target zum Erstellen von bibliothek.jar -->
+    <target name="jar">
+        <!--Kopieren der benoetigtenDateien -->
+        <copy file="lib/postgresql-42.1.1.jar" todir="./target/lib"/>
+        <!--Erstellen des Java Archive -->
+        <jar destfile="./target/bibliothek.jar">
+            <!-- <fileset dir="./bin"/> -->
+            <manifest>
+                <attribute name="Main-Class" value="src/ch/aprentas/praesentationsschicht/Starter.java"/>
+                <attribute name="Class-Path" value="lib/postgresql-42.1.1.jar"/>
+            </manifest>
+        </jar>
+    </target>
+</project>
