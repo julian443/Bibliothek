@@ -1,0 +1,18 @@
+Konfigurationen
+
+[ Server Daten ]
+IP Adresse 192.168.56.102
+Subnetzmaske 255.255.255.0 ¦ CIDR /24
+Driver: org.postgresql.Driver
+Connection url: jdbc:postgresql://192.168.56.102:5432/Bibliothek
+
+[Root user]
+Benutzername: postgres
+Passwort: julian
+
+[Superuser]
+Benutzername: postgres
+
+[Techuser] 
+Benutzername: techuser 
+
