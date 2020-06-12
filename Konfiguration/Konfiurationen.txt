@@ -26,5 +26,6 @@ Passwort: julian
 
 [Techuser] 
 Benutzername: techuser 
+Passwort: julian
 
 
